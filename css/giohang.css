@@ -1,0 +1,59 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+td img {
+    max-width: 100px;
+    max-height: 100px;
+}
+
+td a {
+    color: #ff0000;
+    text-decoration: none;
+}
+
+td a:hover {
+    text-decoration: underline;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+tfoot {
+    background-color: #f2f2f2;
+}
+
+tfoot p {
+    float: left;
+    margin: 10px 0;
+}
+
+tfoot a {
+    float: right;
+    margin: 10px 0;
+    color: #0066cc;
+    text-decoration: none;
+}
+
+tfoot a:hover {
+    text-decoration: underline;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}

@@ -1,0 +1,44 @@
+.wrapperchitiet {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+.hinhanhsanpham {
+    width: 45%;
+}
+
+.hinhanhsanpham img {
+    width: 100%;
+    height: auto;
+}
+
+.chitietsanpham {
+    width: 50%;
+    margin-left: 100px;
+}
+
+.chitietsanpham h3 {
+    margin: 0;
+    color: #333;
+}
+
+.chitietsanpham p {
+    margin: 8px 0;
+    color: #666;
+}
+
+.themgiohang {
+    border: none;
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.themgiohang:hover {
+    background-color: #2980b9;
+}

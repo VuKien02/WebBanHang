@@ -1,0 +1,41 @@
+.khachhanglogin {
+    width: 50%;
+    margin: 20px auto;
+    border: 1px solid #ddd;
+    border-collapse: collapse;
+}
+
+.khachhanglogin tr, .khachhanglogin td {
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+.khachhanglogin input[type="email"],
+.khachhanglogin input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+.khachhanglogin input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.khachhanglogin input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+.khachhanglogin a {
+    text-decoration: none;
+    color: #4CAF50;
+}
+
+.khachhanglogin a:hover {
+    text-decoration: underline;
+}
